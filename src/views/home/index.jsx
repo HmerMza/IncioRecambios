@@ -7,12 +7,7 @@ const Home = () => {
     <Stack>
       <CompNavbar />
       <Stack sx={{ width: "150px" }}>
-        {/* <Button color="primary">Primary</Button> */}
-        <Button color="cuaternary" sx={{ width: "266px", height: "41px" }}>
-          <Typography variant="label" fontSize={16}>
-            Añadir
-          </Typography>
-        </Button>
+        <Button color="primary">Primary</Button>
       </Stack>
     </Stack>
   );

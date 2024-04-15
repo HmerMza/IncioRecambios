@@ -48,6 +48,7 @@ function ResponsiveAppBar() {
     "Moda Motosport",
     "Ofertas",
   ];
+ 
 
   return (
     <>
@@ -168,9 +169,7 @@ function ResponsiveAppBar() {
           <Button variant="text" color="terciary">
             <ShoppingBag />
           </Button>
-          <Button variant="text" color="terciary">
-            <IconBag />
-          </Button>
+          <Button variant="text" color="terciary"></Button>
         </Container>
       </AppBar>
     </>
